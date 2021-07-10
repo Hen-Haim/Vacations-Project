@@ -9,7 +9,7 @@ router.post("/", async (req, res, next)=>{
     try{
         const userDetails = req.body;
         await usersLogic.register(userDetails);
-        res.json("Registration was a success!");
+        res.json("Registration, was a success!");
         
     }catch(err){
         return next(err);
@@ -49,7 +49,7 @@ router.put("/", async (req, res, next)=>{
         const fromCache = cacheModule.extractUserDataFromCache(req);  
         const userDetails = req.body;
         await usersLogic.update(userDetails,fromCache);
-        res.json("Your Update Has Been Saved!");
+        res.json("Updating Your Account, Has Been Saved!");
 
     }catch(err){
         return next(err);
@@ -61,7 +61,7 @@ router.delete('/', async (req, res, next) => {
     try {
         const fromCache = cacheModule.extractUserDataFromCache(req); 
         await usersLogic.deleteUser(fromCache);
-        res.send('Deleting User Was A Success!');
+        res.send('Deleting User, Was A Success!');
 
     } catch (err) {
         return next(err);

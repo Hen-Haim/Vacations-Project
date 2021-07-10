@@ -1,23 +1,21 @@
 const followersDao = require("../dao/followers-dao");
 let ServerError = require("../errors/server-error");
 let ErrorType = require("../errors/error-type");
-const cacheModule = require("../logics/cache-module");
 
-async function addFollower(fromCache, locationId) {
-    isCacheModuleReset(fromCache[0]);
-    addOrRemoveFollower(fromCache[0].isAdmin);
-    const locationIdAfterAdding = await followersDao.addFollower(fromCache[0].id, locationId);
-    return locationIdAfterAdding;
+async function addFollower(detailsFromCache, locationId) {
+    isCacheModuleReset(detailsFromCache[0]);
+    addOrRemoveFollower(detailsFromCache[0].isAdmin);
+    await followersDao.addFollower(detailsFromCache[0].id, locationId);
 }
 
-async function removeFollower(fromCache, locationId) {
-    isCacheModuleReset(fromCache[0]);
-    addOrRemoveFollower(fromCache[0].isAdmin);
-    await followersDao.removeFollower(fromCache[0].id, locationId);
+async function removeFollower(detailsFromCache, locationId) {
+    isCacheModuleReset(detailsFromCache[0]);
+    addOrRemoveFollower(detailsFromCache[0].isAdmin);
+    await followersDao.removeFollower(detailsFromCache[0].id, locationId);
 }
 
-function isCacheModuleReset(fromCacheDetails){
-    if(fromCacheDetails===undefined){
+function isCacheModuleReset(detailsFromCache){
+    if(detailsFromCache===undefined){
         throw new ServerError(ErrorType.CACHE_MODULE_RESET);
     }
 }

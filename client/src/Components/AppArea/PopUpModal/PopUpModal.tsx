@@ -28,12 +28,12 @@ const PopUpModel = () => {
                 <div className="modal-dialog my-modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id={`${modalMessage?.title}-Label`}>{modalMessage?.title}</h5>
+                            <h5 className={`modal-title ${modalMessage?.title==="Success" && "h5-success"}`} id={`${modalMessage?.title}-Label`}>{modalMessage?.title}</h5>
                             {!isMessageSpacial && <button type="button" className="btn-close btn-x" data-bs-dismiss="modal" aria-label="Close" onClick={removingErrorFromStore}>
-                                <i className="fas fa-times icon-x"></i>
+                                <i className={`fas fa-times ${modalMessage?.title==="Success" ? "icon-x-success":"icon-x"}`}></i>
                             </button>}
                         </div>
-                        <div className="modal-body">
+                        <div className="modal-body my-modal-body">
                             {modalMessage?.message}
                         </div>
                         <div className="modal-footer">
@@ -41,7 +41,7 @@ const PopUpModel = () => {
                                 data-bs-dismiss="modal" onClick={removingErrorFromStore}>{modalMessage?.buttonLeftText}
                             </button>}
                             <div onClick={removingErrorFromStore}>
-                                <button type="button" className="btn pop-right-btn" data-bs-dismiss="modal"
+                                <button type="button" className={`btn ${modalMessage?.title==="Success" ? "pop-right-btn-success":"pop-right-btn"}`} data-bs-dismiss="modal"
                                     onClick={modalMessage?.buttonRightFunc}>{modalMessage?.buttonRightText}
                                 </button>
                             </div>

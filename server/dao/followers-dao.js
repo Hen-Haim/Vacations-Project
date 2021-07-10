@@ -10,8 +10,7 @@ async function addFollower(idFromCache, locationId){
     ];
 
     try{
-        const addFollowerResult = await connection.executeWithParameters(sql, parameters);
-        return addFollowerResult.insertId;
+        await connection.executeWithParameters(sql, parameters);
 
     }catch(err){
         throw new ServerError(ErrorType.GENERAL_ERROR, sql, err)
