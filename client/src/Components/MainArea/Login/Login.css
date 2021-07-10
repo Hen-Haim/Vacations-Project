@@ -1,0 +1,170 @@
+
+
+.login-main-content{
+    height:514px;
+    width:410px;
+    text-align:center;
+    padding:105px 20px;
+}
+
+.Login{
+    margin:120px 25%;
+    display:flex;
+    flex-direction:row;
+    border: rgba(255, 255, 255, 0.76) 3px solid;
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.466), 10px 10px 20px 30px rgba(255, 255, 255, 0.466);
+    background-color: rgba(186, 211, 218, 0.801);
+    height:520px;
+    width:780px;
+    justify-content: center;
+    text-align:center;
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.form-submit-login{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.login-main-content h3{
+    margin:0 0 45px 0;
+    font-size:32px;
+    color:white;
+    text-shadow:  4px 4px 4px rgba(255, 255, 255, 0.836),3px 3px 30px rgb(0, 0, 0),-3px -3px 30px rgb(0, 0, 0);
+}
+
+.form-group-login{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px 0 10px;
+    margin:0;
+}
+
+.form-group-login input{
+    box-shadow: -2px -2px 10px 5px rgba(255, 255, 255, 0.623),2px 2px 35px 5px rgba(1, 0, 75, 0.603);
+    border:rgb(240, 240, 240) solid 1px;
+    height:35px;
+}
+
+.err-msg{
+    padding:0;
+    margin:0;
+    color:red
+}
+.no-err{
+    padding:0;
+    margin:24px 0 0 0;
+}
+
+.form-groups-login{
+    margin:0 40px 20px 40px;
+    padding:0 0 20px 0;
+}
+
+.admin-engaging-login{
+    height:55px;
+    width:55px;
+    background-color:rgba(255, 255, 255, 0.644);
+    border:transparent;
+    border-radius:10%;
+}
+
+.admin-login-icon{
+    height:55px;
+    width:55px;
+    font-size: 33px;
+    color:rgb(1, 0, 75);
+}
+
+.admin-login-icon:hover{
+    color:  rgba(5, 72, 116, 0.541);
+}
+
+.login-btn{
+    color:rgb(1, 0, 75);
+    text-align:center;
+    font-size:18px;
+    font-weight:500;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.logging-in-icon{
+    margin:0 12px 0 0;
+}
+
+.login-btn:hover{
+    background-color:  rgba(5, 72, 116, 0.945);
+    color:white;
+}
+
+.right-side-login{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-self:center;
+    width:370px;
+    height:520px;
+    padding:0;
+    margin:0;
+    background-color: rgba(65, 70, 68, 0.349);
+    border-left:solid 1px rgba(1, 41, 44, 0.24);
+}
+
+.right-side-login h1{
+    margin:-80px 0 5px 0;
+    text-shadow: -2px -2px 10px rgba(255, 255, 255, 0.616), 2px 2px 10px rgb(1, 0, 75);
+    color:rgb(247, 240, 231);
+    font-family: 'Odibee Sans';
+    font-size:50px;
+}
+
+.right-side-login>p{
+    margin:20px 0 80px 0;
+    text-shadow: -2px -2px 10px rgba(255, 255, 255, 0.829), 2px 2px 10px rgb(1, 0, 75);
+    color:rgba(1, 0, 75, 0.603);
+    font-family: 'Odibee Sans';
+    font-size:25px;
+}
+
+.right-side-login h5{
+    margin:0 0 25px 0;
+    text-shadow: 2px 2px 2px rgb(13, 15, 73),3px 3px 5px  rgba(1, 0, 75, 0.993), -2px -2px 5px rgba(1, 0, 75, 0.993);
+    color: rgb(235, 148, 77) ;
+    font-size:22px;
+    font-weight:400;
+}
+
+.form-buttons-login{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content:center;
+    width:50%;
+    padding:0;
+    margin:0 15px 20px 0;
+    align-self:center;
+}
+
+.text-btn{
+    width:52%;
+    color:transparent;
+    margin:5px 0 0 0;
+}
+
+.admin-engaging-login p{
+    margin:22px 0px 20px -5px;
+}
+
+.admin-login-icon:hover .text-btn, .admin-engaging-login:hover .text-btn{
+    text-shadow: -2px -2px 10px rgba(255, 255, 255, 0.829), 2px 2px 10px rgb(1, 0, 75);
+    color:rgba(255, 255, 255, 0.603);
+    font-family: 'Odibee Sans';
+    font-size:25px;  
+}
+

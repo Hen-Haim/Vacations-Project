@@ -1,0 +1,56 @@
+.Headline{
+    grid-row: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width:400px;
+    height:159px;
+    position: relative;
+}
+
+.Headline>h1{
+    margin: 40px 0 2px 20px;
+    font-family:'Odibee Sans';
+    font-size:80px;
+    font-weight:950;
+    background: -webkit-linear-gradient(180deg, rgba(246,160,81,1) 0%, rgba(0,212,255,1) 50%, rgba(246,160,81,1) 100%);    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    text-shadow: 0px 0px 45px rgb(230, 216, 216);
+    width:300px;
+    padding-bottom:-140px;
+}
+
+.Headline>div>a{
+    font-family:'Odibee Sans';
+    font-size:25px;
+    font-weight:550;
+    padding:0;
+    margin:0 10px 0 10px;
+    color: rgb(246, 161, 81) ;
+    text-shadow: 0px 0px 35px rgb(230, 216, 216),2px 2px 1px black,-1px -1px 1px black;    
+}
+
+.Headline>div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:0;
+    font-family:'Odibee Sans';
+    font-weight:750;
+    width:120px;
+    height:50px;
+    position:absolute;    
+    top:120px;
+    left:105px;
+    text-emphasis-style: initial;
+}
+
+.Headline>div>a:hover{
+    font-weight:650;
+    padding:0;
+    color: rgba(10, 2, 85, 0.699) ;
+    text-shadow: 0px 0px 5px rgb(238, 190, 131);
+}
+

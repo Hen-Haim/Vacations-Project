@@ -1,0 +1,34 @@
+.Statistics{
+    margin: 150px 200px 0 200px;
+    align-self:center;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 ;
+    border-radius:1%;
+    padding: 55px 70px 50px 50px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 0.2px rgb(13, 15, 73), -1px -1px 10px 0.1px rgb(13, 15, 73);
+    position:relative;
+}
+
+.Statistics h2{
+    text-align:center;
+    margin:0 0 20px 0;
+    color:rgb(13, 15, 73);
+}
+
+.num-of-followers-h6{
+    position:absolute;
+    transform: rotate(270deg);
+    top:300px;
+    left:-30px;
+    color:rgb(13, 15, 73);
+}
+
+.resorts-names{
+    position:absolute;
+    bottom:30px;
+    left:43%;
+    color:rgb(13, 15, 73);
+}

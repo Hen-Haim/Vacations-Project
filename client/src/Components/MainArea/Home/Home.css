@@ -1,0 +1,49 @@
+.Home{
+    padding:0 !important;
+    margin:0 !important;
+    display:flex;
+    flex-direction: column;
+}
+
+.add-btn{
+    background-color:  rgb(1, 0, 75);
+    color:white;
+    border:beige;
+    width: 45px;
+    height: 40px;
+    margin:0 18px 0 0;
+}
+
+.add-btn:hover{
+    background-color:rgb(241, 238, 238);
+    color:rgb(1, 0, 75);
+    transition: all ease-in-out ;
+    transition-delay: 0s ;
+    transition-duration: 0s ;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+} 
+.adding-vacation-div{
+    position:sticky;
+    top: 100px;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    width:170px;
+    height:95px;
+    margin: 60px 0 20px 0;
+    padding: 10px 13px 10px 13px;
+    border: rgba(255, 255, 255, 0.76) 3px solid;
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.466), 10px 10px 20px 10px rgba(255, 255, 255, 0.466);
+    background-color: rgba(186, 211, 218, 0.801);
+}
+
+.adding-vacation-div h5{
+    font-weight:640;
+    font-size:20px;
+    font-family: 'Ubuntu';
+    color: rgb(11, 2, 90);
+    text-shadow: -1px -1px 1px rgb(255, 255, 255), 1px 1px 1px black;
+}

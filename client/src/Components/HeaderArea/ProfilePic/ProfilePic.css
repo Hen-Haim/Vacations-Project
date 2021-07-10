@@ -1,0 +1,20 @@
+.ProfilePic img{
+    border-radius: 50%;
+    display:inline-block;
+    box-sizing: border-box;
+    justify-content: end;
+    border: rgba(255, 255, 255, 0.76) 3px solid;
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.466);
+    margin:0 3.6vw 0 0;
+    padding:0;
+    height:150px;
+    width:150px;
+}
+
+.ProfilePic{
+    display:flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,138 @@
+.Footer{
+    margin:0 0 0 0;
+    padding: 50px 80px 0 80px ;
+    background-color: rgb(17, 12, 56);
+    height:100%;
+    align-content: center;
+    display:flex;
+    flex-direction:column;
+    color:rgb(255, 255, 255);
+}
+
+.footer-icons{
+    color: rgb(255, 255, 255);
+    height:50px;
+    width:50px;
+    font-size:33px;
+}
+
+.link-for-footer-icons{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border:1px solid white;
+    border-radius:16%;
+    height:50px;
+    width:50px;
+    margin:0 5px 0 5px;
+}
+
+.container-for-icons{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: center;
+    text-align:center;
+}
+
+.div-for-all-rights{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin:20px 0 0 0;
+}
+
+.div-for-all-rights h6{
+    margin:0 0 0 4px ;
+    color:rgb(246, 161, 81) ;
+    font-weight:350;
+}
+
+.footer-main-content{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin:0 0 5px 0;
+}
+
+.footer-inputs{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-me{
+    display:flex;
+    flex-direction:row;
+}
+
+.contact-me h4{
+    margin: 0 20px 0 0;
+    color:rgb(246, 161, 81) ;
+}
+
+.Footer hr{
+    border: 0.5px solid rgba(185, 183, 183, 0.349) ;
+    border-radius: 5px;
+    width:100%;
+}
+
+.all-rights{
+    font-size:17px;
+    color:rgb(246, 161, 81) ;
+}
+
+.Footer h5{
+    color:rgb(246, 161, 81) ;
+}
+
+.footer-main-content div h5{
+    margin:0 0 22px 0;
+}
+
+.Footer a{
+    color:white;
+}
+
+.footer-btn{
+    width:150px;
+    height:40px;
+    justify-content: center;
+    text-align:start;
+}
+
+.other-links{
+    margin-bottom:-20px;
+}
+
+.my-footer-btn {
+    background-color: transparent;
+    border: rgba(33, 0, 124, 0.822) solid 1px;
+    text-shadow: 2px 2px 2px rgb(33, 34, 73);
+    color: rgb(231, 161, 104) !important;
+    border-radius: 0%;
+    margin-bottom: 0;
+}
+
+.my-footer-btn:hover{
+    background-color: rgba(33, 0, 124, 0.13);
+    border: transparent solid 1px;
+    color:white;
+    box-shadow: 1px 1px 10px 1px rgb(253, 253, 253), 1px 1px 1px 1px rgb(253, 253, 253);
+}
+
+.link-for-footer-icons:hover{
+    background-color: rgba(33, 0, 124, 0.13);
+    border: transparent solid 1px;
+    color:white;
+    box-shadow: 1px 1px 10px 1px rgb(253, 253, 253), 1px 1px 1px 1px rgb(253, 253, 253);
+}
+
+.footer-icons:hover{
+    border: transparent solid 1px;
+    color:rgba(224, 222, 222, 0.582);
+}
+
+.contact-icons{
+    width:40px;
+    height:40px;
+    font-size:22px;
+}

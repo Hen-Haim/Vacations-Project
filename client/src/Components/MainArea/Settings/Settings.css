@@ -1,0 +1,49 @@
+.Settings{
+    margin:120px 20%;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    border: rgba(255, 255, 255, 0.76) 3px solid;
+    box-shadow: 1px 1px 10px 5px rgba(255, 255, 255, 0.466), 10px 10px 20px 30px rgba(255, 255, 255, 0.466);
+    background-color: rgba(186, 211, 218, 0.801);
+    height:570px;
+    width:900px; 
+    justify-content: center;
+    text-align:center;
+    background-position-x: 0%; 
+}
+
+.btn-delete-user{
+    margin: 0 0 0 20px;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    font-size:22px;
+    font-family: 'Odibee Sans';
+}
+
+.btn-delete-user:hover{
+    background-color:  rgb(148, 0, 0);
+    outline: none;
+    border:1px solid transparent;
+}
+
+.user-deleting-icon{
+    margin:0 10px 0 0 ;
+    color:rgb(255, 255, 255);
+}
+
+.delete-user-div{
+    align-self:flex-start;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.delete-user-div h6{
+    padding:3px 0 3px 0;
+    font-size:22px;
+    height:37px;
+    margin:10px 0 0 55px;
+    color:rgb(1, 0, 75);
+    text-shadow: -2px -2px 1px rgb(255, 255, 255), 2px 2px 10px rgba(1, 0, 75, 0.603); 
+}
